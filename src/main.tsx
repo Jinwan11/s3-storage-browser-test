@@ -7,7 +7,13 @@ import outputs from "../amplify_outputs.json";
 import { Authenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 
+import { createAmplifyAuthAdapter, createStorageBrowser } from '@aws-amplify/ui-react-storage/browser';
+
 Amplify.configure(outputs);
+
+export const { StorageBrowser } = createStorageBrowser({
+  config: createAmplifyAuthAdapter(),
+})
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

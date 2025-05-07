@@ -3,7 +3,7 @@
 // import { generateClient } from "aws-amplify/data";
 // import { useAuthenticator } from '@aws-amplify/ui-react';
 import { Authenticator } from '@aws-amplify/ui-react';
-import { StorageBrowser } from '../components/StorageBrowser';
+import { StorageBrowser } from '../src/main';
 
 // const client = generateClient<Schema>();
 
