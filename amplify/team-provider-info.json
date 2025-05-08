@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-s3storagebrowsertest-dev-5dc8d-authRole",
+      "UnauthRoleArn": "arn:aws:iam::566276045051:role/amplify-s3storagebrowsertest-dev-5dc8d-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::566276045051:role/amplify-s3storagebrowsertest-dev-5dc8d-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-s3storagebrowsertest-dev-5dc8d-deployment",
+      "UnauthRoleName": "amplify-s3storagebrowsertest-dev-5dc8d-unauthRole",
+      "StackName": "amplify-s3storagebrowsertest-dev-5dc8d",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:566276045051:stack/amplify-s3storagebrowsertest-dev-5dc8d/366efd80-2b10-11f0-9a9c-062721060395",
+      "AmplifyAppId": "d1shtpvb2m0l2a"
+    },
+    "categories": {
+      "auth": {
+        "s3storagebrowsertest28d9cbf7": {}
+      }
+    }
+  }
+}
