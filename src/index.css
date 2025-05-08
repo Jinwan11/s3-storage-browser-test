@@ -63,3 +63,9 @@ a {
   font-weight: 800;
   text-decoration: none;
 }
+
+img { position: relative; animation: fade_up 10s;}
+@keyframes fade_up {
+  0% { opacity: 0; transform: translateY(100%);}
+  to { opacity: 1; transform: translateY(0); }
+}
